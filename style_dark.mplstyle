@@ -6,7 +6,6 @@ axes.labelcolor: E1E1E1
 axes.titlecolor: auto
 
 xtick.color: E1E1E1
-xtick.
 ytick.color: E1E1E1
 
 
@@ -32,8 +31,7 @@ hist.bins: 15
 
 font.family: sans-serif
 font.sans-serif: Helvetica, Arial
-font.size: 13
-font.weight: 700
+font.size: 13.5
 
 boxplot.showmeans: True
 boxplot.meanprops.marker: D
