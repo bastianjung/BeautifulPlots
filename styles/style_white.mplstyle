@@ -1,15 +1,10 @@
-
 axes.edgecolor: black
 axes.facecolor: white
 axes.grid: False
 axes.labelcolor: black
-axes.titlecolor: auto
 axes.linewidth: 1
-
 xtick.color: black
 ytick.color: black
-
-
 grid.alpha: 0.3
 grid.color: C2C2C2
 grid.linestyle: -
@@ -20,26 +15,20 @@ lines.dotted_pattern: 1, 2
 figure.figsize: 7,5
 figure.edgecolor: white
 figure.facecolor: white
-
 legend.fontsize: 13
 legend.framealpha: 0.90
 legend.facecolor: white
 legend.edgecolor: C2C2C2
-
 text.color: 181818
-
 hist.bins: 15
-
 font.family: sans-serif
 font.sans-serif: Helvetica, Arial
 font.size: 13.5
-
 boxplot.showmeans: True
 boxplot.meanprops.marker: D
 boxplot.meanprops.markersize: 8
 boxplot.meanprops.markeredgecolor: black
 boxplot.meanprops.markerfacecolor: None
-
 boxplot.notch: False
 boxplot.flierprops.markerfacecolor: None
 boxplot.flierprops.markeredgecolor: C0
@@ -52,11 +41,9 @@ boxplot.medianprops.linewidth: 2
 boxplot.medianprops.color: C3
 boxplot.whiskerprops.linewidth: 1.3
 boxplot.capprops.linewidth: 1.3
-
 image.cmap: gist_heat
 savefig.bbox: tight
 savefig.facecolor: none
-
 scatter.marker: x
 lines.markersize: 6
 axes.prop_cycle: cycler('color', ['194A78', 'EE742D', '2C955D', 'EA3C44', '9467bd', '8c564b', '3E3E3E', '7f7f7f', 'bcbd22', '17becf'])

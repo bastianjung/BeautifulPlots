@@ -3,12 +3,8 @@ axes.edgecolor: 727272
 axes.facecolor: 0F0F0F
 axes.grid: False
 axes.labelcolor: E1E1E1
-axes.titlecolor: auto
-
 xtick.color: E1E1E1
 ytick.color: E1E1E1
-
-
 grid.alpha: 0.3
 grid.color: 444444
 grid.linestyle: -
@@ -19,26 +15,19 @@ lines.dotted_pattern: 1, 2
 figure.figsize: 7,5
 figure.edgecolor: 111111
 figure.facecolor: 0B0B0B
-
-legend.fontsize: 13
 legend.framealpha: 0.4
 legend.facecolor: 222222
 legend.edgecolor: 0.7
-
 text.color: E1E1E1
-
 hist.bins: 15
-
 font.family: sans-serif
 font.sans-serif: Helvetica, Arial
 font.size: 13.5
-
 boxplot.showmeans: True
 boxplot.meanprops.marker: D
 boxplot.meanprops.markersize: 8
 boxplot.meanprops.markeredgecolor: C4
 boxplot.meanprops.markerfacecolor: None
-
 boxplot.notch: False
 boxplot.flierprops.color: E1E1E1
 boxplot.flierprops.markeredgecolor: C2
@@ -48,15 +37,11 @@ boxplot.boxprops.linewidth: 1.3
 boxplot.whiskerprops.color: E1E1E1
 boxplot.capprops.color: E1E1E1
 boxplot.medianprops.linewidth: 1.5
-
-
 image.cmap: gist_heat
 savefig.bbox: tight
 savefig.facecolor: none
-
 scatter.marker: .
 lines.markersize: 7
-
 axes.prop_cycle: cycler('color', ['C0E4FA','F0544F','FED18C', '61C9A8' ,'56CBF9','B891E3', 'E19581', '7A0B1D','0B4D7A','0B7A5C'])
                   # color cycle for plot lines as list of string colorspecs:
                   # single letter, long name, or web-style hex
