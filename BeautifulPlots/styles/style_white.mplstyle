@@ -3,6 +3,10 @@ axes.facecolor: white
 axes.grid: False
 axes.labelcolor: black
 axes.linewidth: 1
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    False
+axes.spines.right:  False
 xtick.color: black
 ytick.color: black
 grid.alpha: 0.3
@@ -12,17 +16,19 @@ grid.linewidth: 1.1
 lines.linewidth: 2.2
 lines.linestyle: -
 lines.dotted_pattern: 1, 2
-figure.figsize: 7,5
+figure.figsize: 10,5
 figure.edgecolor: white
 figure.facecolor: white
 legend.fontsize: 13
+legend.fancybox: True
 legend.framealpha: 0.90
 legend.facecolor: white
 legend.edgecolor: C2C2C2
 text.color: 181818
 hist.bins: 15
-font.family: sans-serif
+font.family: monospace
 font.sans-serif: Helvetica, Arial
+font.monospace: Menlo, DejaVu Sans Mono, Courier New
 font.size: 13.5
 boxplot.showmeans: True
 boxplot.meanprops.marker: D

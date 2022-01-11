@@ -3,8 +3,16 @@ axes.edgecolor: 727272
 axes.facecolor: 0F0F0F
 axes.grid: False
 axes.labelcolor: E1E1E1
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    False
+axes.spines.right:  False
 xtick.color: E1E1E1
+xtick.bottom: True
+xtick.top: False
 ytick.color: E1E1E1
+ytick.left: True
+ytick.right: False
 grid.alpha: 0.3
 grid.color: 444444
 grid.linestyle: -
@@ -18,6 +26,7 @@ figure.facecolor: 0B0B0B
 legend.framealpha: 0.4
 legend.facecolor: 222222
 legend.edgecolor: 0.7
+legend.fancybox: True
 text.color: E1E1E1
 hist.bins: 15
 font.family: sans-serif
