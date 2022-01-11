@@ -21,4 +21,5 @@ with open("README.md", "r", encoding="utf-8") as fh:
             #package_dir={"": "BeautifulPlots"},
             packages=setuptools.find_packages(),
             python_requires=">=3.6",
+            include_package_data=True
             )
