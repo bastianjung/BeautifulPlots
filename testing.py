@@ -1,5 +1,4 @@
 import numpy as np
-from BeautifulPlots import *
 import math
 
 #plt.style.use("styles/style_white.mplstyle")
