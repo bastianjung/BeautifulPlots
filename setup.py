@@ -11,14 +11,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
             description="Making matplotlib look a little nicer",
             long_description=long_description,
             long_description_content_type="text/markdown",
-            url="https://github.com/bastianjung/MPL_Style",
+            url="https://github.com/bastianjung/BeautifulPlots",
             project_urls={},
             classifiers=[
                 "Programming Language :: Python :: 3",
                 "License :: OSI Approved :: MIT License",
                 "Operating System :: OS Independent",
                 ],
-            package_dir={"": "BeautifulPlots"},
-            packages=setuptools.find_packages(where="BeautifulPlots"),
+            #package_dir={"": "BeautifulPlots"},
+            packages=setuptools.find_packages(),
             python_requires=">=3.6",
             )
