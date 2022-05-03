@@ -26,7 +26,8 @@ legend.facecolor: white
 legend.edgecolor: C2C2C2
 text.color: 181818
 hist.bins: 15
-font.family: Serif
+font.family: serif
+font.serif: Computer Modern Roman, Times New Roman, DejaVu SerifBitstream Vera Serif,  New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times, Palatino, Charter, serif
 font.size: 13.5
 boxplot.showmeans: True
 boxplot.meanprops.marker: D
