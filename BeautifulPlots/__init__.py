@@ -1,5 +1,7 @@
-from matplotlib import pyplot as plt
-from BeautifulPlots.reset_style import  reset_style
+from .helper import set_style, get_style_names
+import shutil
+import matplotlib
 
-reset_style()
-__all__ = ['plt', 'reset_style']
+matplotlib.font_manager._load_fontmanager(try_read_cache=False)
+
+__all__ = ["set_style", "get_style_names"]

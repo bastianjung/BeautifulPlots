@@ -1,0 +1,61 @@
+axes.edgecolor: black
+axes.facecolor: white
+axes.grid: False
+axes.labelcolor: black
+axes.linewidth: 1
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    False
+axes.spines.right:  False
+xtick.color: black
+ytick.color: black
+grid.alpha: 0.3
+grid.color: C2C2C2
+grid.linestyle: -
+grid.linewidth: 1.1
+lines.linewidth: 2.2
+lines.linestyle: -
+lines.dotted_pattern: 1, 2
+figure.figsize: 10,5
+figure.edgecolor: white
+figure.facecolor: white
+legend.fontsize: 13
+legend.fancybox: True
+legend.framealpha: 0.90
+legend.facecolor: white
+legend.edgecolor: C2C2C2
+text.color: 181818
+hist.bins: 15
+font.family: sans-serif
+font.sans-serif: Trebuchet MS
+font.size: 13.5
+boxplot.showmeans: True
+boxplot.meanprops.marker: D
+boxplot.meanprops.markersize: 8
+boxplot.meanprops.markeredgecolor: black
+boxplot.meanprops.markerfacecolor: None
+boxplot.notch: False
+boxplot.flierprops.markerfacecolor: None
+boxplot.flierprops.markeredgecolor: C0
+boxplot.flierprops.markersize: 8
+boxplot.boxprops.color: black
+boxplot.boxprops.linewidth: 1.5
+boxplot.whiskerprops.color: black
+boxplot.capprops.color: black
+boxplot.medianprops.linewidth: 2
+boxplot.medianprops.color: C1
+boxplot.whiskerprops.linewidth: 1.3
+boxplot.capprops.linewidth: 1.3
+image.cmap: gist_heat
+savefig.bbox: tight
+savefig.facecolor: none
+scatter.marker: x
+lines.markersize: 6
+axes.prop_cycle: cycler('color', ['43fda2', '30c1d7',  'e61c57', 'a8b21c', 'c8c8c8', '3ead92',  '295e7e', 'c41310', '3d3a40','9a9a9a'])
+                  # color cycle for plot lines as list of string colorspecs:
+                  # single letter, long name, or web-style hex
+                  # As opposed to all other paramters in this file, the color
+                  # values must be enclosed in quotes for this parameter,
+                  # e.g. '1f77b4', instead of 1f77b4.
+                  # See also https://matplotlib.org/tutorials/intermediate/color_cycle.html
+                  # for more details on prop_cycle usage.

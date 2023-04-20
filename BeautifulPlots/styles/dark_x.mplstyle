@@ -1,0 +1,54 @@
+axes.edgecolor: 727272
+axes.facecolor: 0F0F0F
+axes.grid: False
+axes.labelcolor: E1E1E1
+axes.spines.left:   True  # display axis spines
+axes.spines.bottom: True
+axes.spines.top:    False
+axes.spines.right:  False
+xtick.color: E1E1E1
+xtick.bottom: True
+xtick.top: False
+ytick.color: E1E1E1
+ytick.left: True
+ytick.right: False
+grid.alpha: 0.3
+grid.color: 444444
+grid.linestyle: -
+grid.linewidth: 1
+lines.linewidth: 1.3
+lines.linestyle: -
+lines.dotted_pattern: 1, 2
+figure.figsize: 7,5
+figure.edgecolor: 111111
+figure.facecolor: 0B0B0B
+legend.framealpha: 0.4
+legend.facecolor: 222222
+legend.edgecolor: 0.7
+legend.fancybox: True
+text.color: E1E1E1
+hist.bins: 15
+font.family: sans-serif
+font.sans-serif: Trebuchet MS
+font.size: 13.5
+boxplot.showmeans: True
+boxplot.meanprops.marker: D
+boxplot.meanprops.markersize: 8
+boxplot.medianprops.color: C1
+boxplot.meanprops.markeredgecolor: C3
+boxplot.meanprops.markerfacecolor: None
+boxplot.notch: False
+boxplot.flierprops.color: C0
+boxplot.flierprops.markeredgecolor: C0
+boxplot.flierprops.markersize: 5
+boxplot.boxprops.color: E1E1E1
+boxplot.boxprops.linewidth: 1.3
+boxplot.whiskerprops.color: E1E1E1
+boxplot.capprops.color: E1E1E1
+boxplot.medianprops.linewidth: 1.5
+image.cmap: gist_heat
+savefig.bbox: tight
+savefig.facecolor: none
+scatter.marker: .
+lines.markersize: 7
+axes.prop_cycle: cycler('color', ['6DF8D7','7183F8','DC496B','E9E9ED','C0391C', 'A9F3F6', 'B4B4B8','3725A7','2F2F32','7A7A7E','60C08C','61DFC3','4CB19A','388781','67E5E9','DDE15F'])
