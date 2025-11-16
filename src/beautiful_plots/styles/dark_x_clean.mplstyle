@@ -29,8 +29,8 @@ legend.fancybox: True
 text.color: E1E1E1
 hist.bins: 15
 font.family: sans-serif
-font.sans-serif: Trebuchet MS
-font.size: 13.5
+font.sans-serif: SF Pro, Manrope, Inter, Helvetica, Arial
+font.size: 11.5
 boxplot.showmeans: True
 boxplot.meanprops.marker: D
 boxplot.meanprops.markersize: 8

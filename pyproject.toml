@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "my_styles"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]  # Look for packages in the 'src' directory
+
+[tool.setuptools.package-data]
+# This line is critical!
+# It tells setuptools to find the 'beautiful_plots' package and
+# include all files inside its 'styles/' directory.
+"beautiful_plots" = ["styles/*.mplstyle"]
+
+[project.entry-points."matplotlib.style"]
+# Register each style with matplotlib's entry point system
+classic = "beautiful_plots.styles:classic.mplstyle"
+dark = "beautiful_plots.styles:dark.mplstyle"
+dark_facet = "beautiful_plots.styles:dark_facet.mplstyle"
+dark_x = "beautiful_plots.styles:dark_x.mplstyle"
+white_facet = "beautiful_plots.styles:white_facet.mplstyle"
+white_menlo = "beautiful_plots.styles:white_menlo.mplstyle"
+white_serif = "beautiful_plots.styles:white_serif.mplstyle"
+white_x = "beautiful_plots.styles:white_x.mplstyle"
