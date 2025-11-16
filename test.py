@@ -82,7 +82,7 @@ axes[1].grid(True, alpha=0.3)
 # 3. Bar Chart - Monthly data with interesting pattern
 categories = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"]
 values = [23, 45, 56, 78, 65, 89, 94, 76]
-cmap = plt.get_cmap("dark_beauty")
+cmap = plt.get_cmap("dark_beauty_reverse")
 colors = [cmap(v / max(values)) for v in values]
 axes[2].bar(categories, values, color=colors, linewidth=1.5)
 axes[2].set_title("Monthly Performance", fontsize=14, fontweight="bold")
@@ -106,4 +106,5 @@ cbar = plt.colorbar(im, ax=axes[3])
 cbar.set_label("Magnitude")
 
 plt.tight_layout()
+plt.savefig("demo.png", dpi=100)
 plt.show()

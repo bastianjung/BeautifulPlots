@@ -48,7 +48,7 @@ boxplot.capprops.color: E1E1E1
 boxplot.medianprops.linewidth: 1.5
 image.cmap: gist_heat
 savefig.bbox: tight
-savefig.facecolor: none
+savefig.facecolor: 000000
 scatter.marker: .
 lines.markersize: 7
 axes.prop_cycle: cycler('color', ['6DF8D7','7183F8','DC496B','E9E9ED','C0391C', 'A9F3F6', 'B4B4B8','3725A7','2F2F32','7A7A7E','60C08C','61DFC3','4CB19A','388781','67E5E9','DDE15F'])
