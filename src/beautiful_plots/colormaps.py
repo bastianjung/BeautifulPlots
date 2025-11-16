@@ -15,9 +15,11 @@ dark_beauty_colors = [
     "#C0391C",  # Deep red
 ]
 
-dark_beauty = LinearSegmentedColormap.from_list("dark_beauty", dark_beauty_colors)
+dark_beauty = LinearSegmentedColormap.from_list("dark_beauty", dark_beauty_colors[::-1])
+dark_beauty_reverse = LinearSegmentedColormap.from_list("dark_beauty_reverse", dark_beauty_colors)
 
 
 def register_colormaps():
     """Register all custom colormaps with matplotlib."""
+    mpl.colormaps.register(dark_beauty_reverse)
     mpl.colormaps.register(dark_beauty)
